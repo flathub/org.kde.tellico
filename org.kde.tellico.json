@@ -48,12 +48,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://tellico-project.org/files/tellico-3.4.2.tar.xz",
-                    "sha256": "efa575d6368cc7c62d9e665f7dde163abffcf245141947e6acda9d5218d81d04"
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata-oars.patch"
+                    "url": "https://tellico-project.org/files/tellico-3.4.3.tar.xz",
+                    "sha256": "dd629df9afc29379448303b660f7029b535833d9718ef0cb71975ebf28f984ee"
                 }
             ]
         }
