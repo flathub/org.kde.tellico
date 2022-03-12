@@ -18,11 +18,13 @@
         {
             "name": "taglib",
             "buildsystem": "cmake-ninja",
-            "config-opts": [ "-DBUILD_SHARED_LIBS=ON" ],
+            "config-opts": [
+                "-DBUILD_SHARED_LIBS=ON"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://taglib.org/releases/taglib-1.12.tar.gz",
+                    "url": "https://taglib.github.io/releases/taglib-1.12.tar.gz",
                     "sha256": "7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703",
                     "x-checker-data": {
                         "type": "anitya",
@@ -60,8 +62,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://tellico-project.org/files/tellico-3.4.3.tar.xz",
-                    "sha256": "dd629df9afc29379448303b660f7029b535833d9718ef0cb71975ebf28f984ee",
+                    "url": "https://tellico-project.org/files/tellico-3.4.4.tar.xz",
+                    "sha256": "8054292a76e553aaa9ed3f73da8fc35fef0841e3fe139e99c372925f9715d7c1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4950,
