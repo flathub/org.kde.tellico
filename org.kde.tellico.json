@@ -23,7 +23,13 @@
                 {
                     "type": "archive",
                     "url": "https://taglib.org/releases/taglib-1.12.tar.gz",
-                    "sha256": "7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703"
+                    "sha256": "7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1982,
+                        "stable-only": true,
+                        "url-template": "https://taglib.github.io/releases/taglib-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -34,7 +40,13 @@
                 {
                     "type": "archive",
                     "url": "https://ftp.indexdata.com/pub/yaz/yaz-5.31.1.tar.gz",
-                    "sha256": "14cc34d19fd1fd27e544619f4c13300f14dc807088a1acc69fcb5c28d29baa15"
+                    "sha256": "14cc34d19fd1fd27e544619f4c13300f14dc807088a1acc69fcb5c28d29baa15",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 5287,
+                        "stable-only": true,
+                        "url-template": "https://ftp.indexdata.com/pub/yaz/yaz-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -49,7 +61,13 @@
                 {
                     "type": "archive",
                     "url": "https://tellico-project.org/files/tellico-3.4.3.tar.xz",
-                    "sha256": "dd629df9afc29379448303b660f7029b535833d9718ef0cb71975ebf28f984ee"
+                    "sha256": "dd629df9afc29379448303b660f7029b535833d9718ef0cb71975ebf28f984ee",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 4950,
+                        "stable-only": true,
+                        "url-template": "https://tellico-project.org/files/tellico-$version.tar.xz"
+                    }
                 }
             ]
         }
