@@ -62,8 +62,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://tellico-project.org/files/tellico-3.5.tar.xz",
-                    "sha256": "3b73ac9ddaab388bfc8bfbd7c6c55408c0affa3a1a2c9fea241e34b2fd364f7d",
+                    "url": "https://tellico-project.org/files/tellico-3.5.1.tar.xz",
+                    "sha256": "d626702a515b3a44d988db330752c3f578a96aa0b5d3d81f745aa6cc8b5eb70a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4950,
