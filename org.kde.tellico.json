@@ -57,8 +57,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.indexdata.com/pub/yaz/yaz-5.34.4.tar.gz",
-                    "sha256": "c470a73f8d79cfa10971b43685f4542504d1d3bc45f2cd057870e0ffc2e12ead",
+                    "url": "https://ftp.indexdata.com/pub/yaz/yaz-5.35.0.tar.gz",
+                    "sha256": "df8203c8afe852ee79a54f9e05afd111ba81ca85c1608181decdaf29a5ec536c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5287,
