@@ -2,9 +2,9 @@
     "id": "org.kde.tellico",
     "command": "tellico",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.8",
+    "base-version": "6.9",
     "sdk": "org.kde.Sdk",
     "rename-icon": "tellico",
     "finish-args": [
@@ -15,42 +15,6 @@
         "--socket=wayland"
     ],
     "modules": [
-        {
-            "name": "utfcpp",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/nemtrif/utfcpp/archive/refs/tags/v4.0.6.tar.gz",
-                    "sha256": "6920a6a5d6a04b9a89b2a89af7132f8acefd46e0c2a7b190350539e9213816c0",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 20545,
-                        "url-template": "https://github.com/nemtrif/utfcpp/archive/refs/tags/v$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "taglib",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_SHARED_LIBS=ON"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://taglib.github.io/releases/taglib-2.1.1.tar.gz",
-                    "sha256": "3716d31f7c83cbf17b67c8cf44dd82b2a2f17e6780472287a16823e70305ddba",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 1982,
-                        "stable-only": true,
-                        "url-template": "https://taglib.github.io/releases/taglib-$version.tar.gz"
-                    }
-                }
-            ]
-        },
         {
             "name": "yaz",
             "buildsystem": "autotools",
