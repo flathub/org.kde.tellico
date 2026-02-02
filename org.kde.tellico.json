@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.indexdata.com/pub/yaz/yaz-5.36.0.tar.gz",
-                    "sha256": "e9389ff5d7e76b4a50c89d72715a96a3ed48bbb97bd91b56eeb5146fa1be5d7d",
+                    "url": "https://ftp.indexdata.com/pub/yaz/yaz-5.37.0.tar.gz",
+                    "sha256": "9257feb06e2fdbbfceb7d040c139fa13957c4d1ebba6aa293a6dd13cab2225ce",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5287,
@@ -55,8 +55,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://tellico-project.org/files/tellico-4.1.4.tar.xz",
-                    "sha256": "c81b8d31bbd5fa4d7d82f9b0e3a9e859e8b65f1bc6c24839de21ca3c992c2304",
+                    "url": "https://tellico-project.org/files/tellico-4.1.5.tar.xz",
+                    "sha256": "de85c600a725926000308622d96ee7bed1123af07f971f237841fb4a02240b36",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4950,
